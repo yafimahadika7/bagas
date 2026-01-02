@@ -111,13 +111,13 @@ body{
 
 <?php if($error){ ?>
 <div class="alert alert-danger"><?= $error ?></div>
-<?php header("refresh:2;url=karyawan.php");
+<?php header("refresh:2;url=index.php");
         } 
 ?>
 
 <?php if($sukses){ ?>
 <div class="alert alert-success"><?= $sukses ?></div>
-<?php header("refresh:2;url=karyawan.php");
+<?php header("refresh:2;url=index.php");
         } 
 ?>
 
